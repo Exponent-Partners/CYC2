@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '3.36.0'
+project:
+    name: CYC2
+    package:
+        name: CYC2Project
+        api_version: '50.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/CYC2/tests
+            options:
+                outputdir: robot/CYC2/results
+
+    robot_testdoc:
+        options:
+            path: robot/CYC2/tests
+            output: robot/CYC2/doc/CYC2_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
