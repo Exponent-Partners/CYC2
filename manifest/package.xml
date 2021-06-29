@@ -50,12 +50,7 @@
 	</types>
 	<types>
     	<members>Account</members>
-		<members>Client_Conflict__c</members>
-		<members>Client_Needs_History__c</members>
-		<members>Connection__c</members>
-		<members>Connection_Update__c</members>
 		<members>Contact</members>
-		<members>Data_Sharing_Consent__c</members>
 		<members>EmailMessage</members>
 		<members>ExpECM__Agency_Contract__c</members>
 		<members>ExpECM__ApexComponent_Migration_Map__c</members>
